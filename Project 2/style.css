@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-end;
+    padding: 40px;
+}
+#nav h3{
+    position: fixed;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+
+}
+#intro{
+    height: 45%;
+    width: 100%;
+    background-color: blanchedalmond;
+    padding: 50px;
+
+}
+#intro h1{
+    font-size: 145px;
+    letter-spacing: -3px;
+    line-height: 130px;
+
+}
+#place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#hero-image{
+    height: 86%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero.webp);
+}
+#about{
+    height: 45%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#about h2{
+    
+    width: 62%;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 83px;
+    
+}
+#about-part2{
+    width: 36%;
+    height: 100%;
+    border-left: 2px solid black;
+
+    
+}
